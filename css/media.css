@@ -1,0 +1,41 @@
+/* tablets and under */
+
+@media(max-width:758px) {
+    header .flexbox, #newsletter .flexbox {
+        flex-direction: column;
+    }
+    #logo h1 {
+        font-size: 20px;
+    }
+    #newsletter, header, #capabilities, #services {
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+    #design-types .grid, #ourWork .grid, #capabilities .grid, #services .grid {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+    #design-types img {
+        width: 300px;
+    }
+    .about-banner h1 {
+        padding: 158px 40px;
+        font-size: 32px;
+    }
+    .services-banner .container h1 {
+        text-align: center;
+        font-size: 32px;
+    }
+    #services .fontawesome {
+        font-size: 2rem;
+        padding-top: 15px;
+    }
+}
+
+@media(max-width:500px) {
+    #services .fontawesome {
+        font-size: 1rem;
+        padding-top: 5px;
+    }
+}

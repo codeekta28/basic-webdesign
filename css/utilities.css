@@ -1,0 +1,55 @@
+/* common classes */
+
+.container{
+    padding: 0px 40px;
+    max-width: 1100px;
+    margin: auto;
+}
+.flexbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+}
+.currentLink{
+    color: var(--orange);
+    font-weight: bold;
+}
+/* sizes of font */
+.lead{
+    font-size: 20px;
+}
+.sm{
+    font-size: 1rem;
+}
+.md{
+    font-size: 2rem;
+}
+.lg{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.xl{
+    font-size: 4rem;
+    font-weight: bold;
+}
+/* button */
+.btn{
+    background-color: var(--orange);
+    color: white;
+    padding: 6px 16px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+}
+input[type="email"]{
+    padding: 10px 13px;
+    border-radius: 5px;
+}
